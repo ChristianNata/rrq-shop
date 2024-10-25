@@ -1,0 +1,109 @@
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.kepala {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.kepala .logo {
+    width: 20px;
+    height: auto;
+    margin-left: 20px; 
+}
+
+.kepala input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.kepala button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.kepala button:hover {
+    background-color: gray;
+}
+
+.NAVBAR {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+    background-color: black;
+    padding: 10px;
+}
+
+.NAVBAR li {
+    color: whitesmoke;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.NAVBAR li:hover {
+    color: yellow;
+}
+
+.rrq {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.rrq img {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+}
+
+.jualan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.jual1, .jual2, .jual3, .jual4 {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+    width: 200px;
+}
+
+.jual1:hover, .jual2:hover, .jual3:hover, .jual4:hover {
+    transform: scale(1.05);
+}
+
+.jual1 img, .jual2 img, .jual3 img, .jual4 img {
+    height: 150px;
+    width: 150px;
+}
+
+.jualan button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.jualan button:hover {
+    background-color: gray;
+}
